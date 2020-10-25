@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -20,7 +20,13 @@
   },
   "license": "MIT",
   "keywords": [
-    "pridepack"
+    "pridepack",
+    "react",
+    "container-query",
+    "query",
+    "media-query",
+    "react-hooks",
+    "resize-observer"
   ],
   "name": "use-container-query",
   "module": "dist/use-container-query.esm.js",
@@ -50,5 +56,19 @@
   },
   "dependencies": {
     "@juggle/resize-observer": "^3.2.0"
+  },
+  "description": "React hooks for element-based media queries",
+  "author": "Alexis Munsayac <alexis.munsayac@gmail.com>",
+  "private": false,
+  "repository": {
+    "url": "https://github.com/lxsmnsyc/use-container-query.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/lxsmnsyc/use-container-query",
+  "bugs": {
+    "url": "https://github.com/lxsmnsyc/use-container-query/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
