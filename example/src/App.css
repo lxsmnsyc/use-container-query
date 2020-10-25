@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: stretch;
+  justify-content: stretch;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.matched {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(60deg, #132a13ff, #31572cff, #4f772dff, #90a955ff, #ecf39eff);;
+}
+
+.not-matched {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(60deg, #4f000bff, #720026ff, #ce4257ff, #ff7f51ff, #ff9b54ff);
+}
